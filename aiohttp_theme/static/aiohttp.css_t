@@ -300,7 +300,7 @@ div.admonition p.last {
 }
 
 
-div[class^="highlight-"] {
+:not(td) div[class^="highlight-"] {
     margin-top: -10px;
 }
 
